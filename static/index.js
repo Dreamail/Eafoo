@@ -104,15 +104,15 @@ let _gameBBList = [],
 
 function gameInit() {
     createjs.Sound.registerSound({
-        src: "./static/music/err.mp3",
+        src: "./static/music/static_music_err.mp3",
         id: "err"
     });
     createjs.Sound.registerSound({
-        src: "./static/music/end.mp3",
+        src: "./static/music/static_music_end\ 2.mp3",
         id: "end"
     });
     createjs.Sound.registerSound({
-        src: "./static/music/tap.mp3",
+        src: "./static/music/static_music_tap.mp3",
         id: "tap"
     });
     gameRestart();

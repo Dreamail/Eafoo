@@ -108,7 +108,7 @@ function gameInit() {
         id: "err"
     });
     createjs.Sound.registerSound({
-        src: "./static/music/static_music_end\ 2.mp3",
+        src: "./static/music/end.mp3",
         id: "end"
     });
     createjs.Sound.registerSound({
